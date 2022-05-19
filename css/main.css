@@ -1,0 +1,106 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h1,
+  p,
+  h3 {
+    text-transform: capitalize;
+  }
+  header {
+    margin-top: 30px;
+  }
+  .container {
+    width: 80%;
+    color: #aaa;
+    padding: 25px;
+    margin: auto;
+    border-bottom: 1px solid #999;
+  }
+  .title {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .test {
+    background-color: #eeeeee;
+  }
+  .test h3 {
+    color: #000;
+    font-weight: bold;
+    margin: 20px auto;
+  }
+  p {
+    font-weight: bold;
+    color: #333;
+  }
+  .list-body {
+    margin: 10px 0;
+  }
+  .test1 {
+    background-image: linear-gradient(#eee, #fff);
+  }
+  .list-body h2 {
+    display: inline-block;
+    width: 40%;
+    color: #000;
+    font-weight: 700;
+    font-size: 25px;
+  }
+  footer p {
+    color: #aaa;
+  }
+  button,
+  a {
+    letter-spacing: 2px;
+    text-transform: capitalize;
+  }
+  .search-input {
+    border-radius: 20px;
+  }
+  .search-input::placeholder {
+    text-align: center;
+  }
+  .list-body .test1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .test1 div a {
+    background-color: #00aeff;
+  }
+  .test1 div button:first-of-type {
+    background-color: #ff6c5f;
+  }
+  .test1 div button:nth-of-type(2) {
+    background-color: #4d148c;
+  }
+  @media screen and (max-width: 576px) {
+    .container {
+      width: 90%;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .container h1 {
+      font-size: 22px;
+    }
+    .test h3 {
+      font-size: 16px;
+    }
+    .list-body .test1 {
+      padding: 20px 10px !important;
+    }
+    .list-body .test1 h2 {
+      width: 25%;
+      font-size: 14px;
+    }
+    .list-body .test1 .btn {
+      padding: 3px 5px;
+      font-size: 12px;
+    }
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    .container {
+      width: 90%;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }  

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/Angular_full_color_logo.svg.png">
+    <title>Bookmarker</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1 class="title">Bookmarker</h1>
+        </div>
+    </header>
+
+    <div class="container my-0">
+        <div class="bookmark-body">
+            <div class="test py-5 text-center">
+                <h3>Bookmark your favorite sites</h3>
+                <div class="bookmark-gp mb-3">
+                    <p>site name</p>
+                    <input id="name" type="text" class="form-control w-75 m-auto" placeholder="Enter Site Name" />
+                    <div id="nameAlert" class="alert alert-info mt-2 mb-3 w-75 m-auto text-start d-none">
+                        name should start with capital character......
+                    </div>
+                </div>
+                <div class="bookmark-gp mb-3">
+                    <p>site URL</p>
+                    <input id="url" type="text" class="form-control w-75 m-auto" placeholder="Enter Site URL" />
+                    <div id="urlAlert" class="alert alert-info mt-2 mb-3 w-75 m-auto text-start d-none">
+                        ex: https://www.url name .com
+                    </div>
+                </div>
+                <div class="m-auto">
+                    <button id="submitBtn" disabled class="btn bg-primary text-white">
+                        add site
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="bookmark-list py-3">
+            <input id="search" class="search-input form-control my-4 bg-light" placeholder=" Search by name "
+                autocomplete="off" />
+            <div id="listBody" class="list-body my-3"></div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container border-0">
+            <p>&copy; 2019 Bookmarker Inc.</p>
+        </div>
+    </footer>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
